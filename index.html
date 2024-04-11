@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portofolio - Rahma Maulida Shaliha</title>
+    <script defer src="./script.js"></script>
+</head>
+<body onload="init()">
+    <!-- <div class="popMsg ${type}">
+        <img src="./img/icon.alert.svg" alt="( ! )" />
+        <p class="message">${message}</p>
+    </div> -->
+    
+    <nav>
+        <p>Rahma Maulida Shaliha</p>
+
+        <img id="menu-icon" class="menu-icon" src="./img/menu.png" alt="icon" />
+
+        <ol id="menu" class="menu">
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#others">Lainnya</a></li>
+            <!-- <li><a href="#blog">Blog</a></li> -->
+            <li><a href="#contact">Kontak</a></li>
+            <li><a href="./file/CV_Rahma Maulida Shaliha.pdf" download>Resume</a></li>
+            <li id="lang" language="id"><img src="./img/id.png" alt="icon" /></li>
+        </ol>
+    </nav>
+
+    <header id="header">
+        <div></div>
+
+        <div>
+            <img src="./img/header-img.png" />
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+
+        <p>Seorang fresh graduate lulusan D4 Teknik Informatika di Politeknik Negeri Jakarta dengan 6 bulan pengalaman internship sebagai Software Engineering. Dengan background tersebut, saya mampu menganalisis kebutuhan suatu aplikasi, melakukan desain sistem, mengembangkan aplikasi fullstack web, mendesain sistem database, serta mendesain UI/UX aplikasi. Saya familiar dengan SDLC (Software Development Life Cycle) serta proses pengujian menggunakan black-box testing.</p>
+
+        <div class="skills">
+            <div class="skill">
+                <h3>Skills</h3>
+                <ul></ul>
+            </div>
+
+            <div class="skill">
+                <h3>Software</h3>
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="certificates">
+            <h3>Sertifikat</h3>
+            <ul></ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="cards"></div>
+    </section>
+    
+    <!-- <section id="blog">
+        <h2>Blog</h2>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./img/img-placeholder.png" alt="article-img" />
+                <h3>Title</h3>
+                <p>Description</p>
+                <button class="btn" href="#">Read more</button>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="others">
+        <h2>Lainnya</h2>
+
+        <div class="cards"></div>
+    </section>
+    
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+
+        <form id="contact-form" name="contact-form">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="nama" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            
+            <label for="message">Message</label>
+            <input type="text" id="message" name="pesan" required />
+
+            <button id="form-submit" type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="upper">
+            <div>
+                <h4>Rahma Maulida Shaliha</h4>
+
+                <ul>
+                    <li><a class="email" href="https://mail.google.com/mail/?view=cm&fs=1&to=rahma.maulida68@gmail.com" target="_blank">rahma.maulida68@gmail.com</a></li>
+                    <li>Cilodong, Depok</li>
+                </ul>
+            </div>
+
+            <!-- <div id="articleLinks">
+                <h4>Kategori Tulisan</h4>
+                <ul>
+                    <li><a href="#">Tulisan</a></li>
+                    <li><a href="#">Tulisan</a></li>
+                </ul>
+            </div> -->
+
+            <div id="navigationLinks">
+                <h4>Tautan</h4>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="./file/CV_Rahma Maulida Shaliha.pdf" download>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/rahmams/" target="_blank"><img class="img-icon" src="./img/linkedin.png" alt="sosmed-img" /></a>
+                <a href="https://github.com/rahmams68" target="_blank"><img class="img-icon" src="./img/github.png" alt="sosmed-img" /></a>
+                <a href="https://instagram.com/rahmams68" target="_blank"><img class="img-icon" src="./img/instagram.png" alt="sosmed-img" /></a>
+            </div>
+
+            <p>&copy; 2024 Rahma Maulida Shaliha</p>
+            <a href="#header"><img class="btn-top" src="./img/up.png" /></a>
+        </div>
+        
+    </footer>
+</body>
+</html>
