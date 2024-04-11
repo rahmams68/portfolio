@@ -516,10 +516,10 @@ function init() {
         document.body.setAttribute('lang', lang)
     }
 
-    else {
-        document.body.setAttribute('lang', 'id')
-        localStorage.setItem('lang', 'id')
-    }
+    // else {
+    //     document.body.setAttribute('lang', 'id')
+    //     localStorage.setItem('lang', 'id')
+    // }
 
     const btnLang = document.getElementById('lang')
     btnLang.addEventListener('click', () => {
