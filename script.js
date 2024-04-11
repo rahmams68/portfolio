@@ -348,9 +348,11 @@ function setNav(lang) {
     //NAVBAR
     const menus = document.querySelectorAll('ol li a')
     const langIcon = document.querySelector('ol li img')
+    console.log(data[lang].nav.item)
 
     menus[0].innerText = data[lang].nav.item[0]
     menus[1].innerText = data[lang].nav.item[1]
+    menus[2].innerText = data[lang].nav.item[2]
     menus[3].innerText = data[lang].nav.item[3]
     langIcon.setAttribute('src', `./img/${document.body.getAttribute('lang')}.png`)
 
@@ -510,16 +512,18 @@ function setContent(lang) {
 }
 
 function init() {
-    const lang = localStorage.getItem('lang')
+    // const lang = localStorage.getItem('lang')
 
-    if (lang) {
-        document.body.setAttribute('lang', lang)
-    }
+    // if (lang) {
+    //     document.body.setAttribute('lang', lang)
+    // }
 
     // else {
     //     document.body.setAttribute('lang', 'id')
     //     localStorage.setItem('lang', 'id')
     // }
+
+    localStorage.setItem('lang', 'id')
 
     const btnLang = document.getElementById('lang')
     btnLang.addEventListener('click', () => {
@@ -533,5 +537,5 @@ function init() {
         li[i].addEventListener('click', () => mainMenu.classList.toggle('menu-active'))
     }
 
-    setContent(lang)
+    setContent('id')
 }
