@@ -405,7 +405,7 @@ a.email {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 860px) {
     * {
         --section-padding: 50px 10% 100px 10%;
         /* --section-padding: 50px 150px 100px 150px; */

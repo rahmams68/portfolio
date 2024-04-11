@@ -348,7 +348,6 @@ function setNav(lang) {
     //NAVBAR
     const menus = document.querySelectorAll('ol li a')
     const langIcon = document.querySelector('ol li img')
-    console.log(data[lang].nav.item)
 
     menus[0].innerText = data[lang].nav.item[0]
     menus[1].innerText = data[lang].nav.item[1]
