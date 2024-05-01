@@ -382,6 +382,10 @@ a.email {
     /* visibility: collapse; */
 }
 
+img.lang {
+    display: none;
+}
+
 @keyframes popMessage {
     0% {
         opacity: 1;
@@ -442,9 +446,13 @@ a.email {
         width: 100%;
     }
 
-    .menu-icon {
+    .menu-icon, img.lang {
         display: initial;
         /* display: inline; */
+    }
+    
+    li.lang {
+        display: none;
     }
 
     header {

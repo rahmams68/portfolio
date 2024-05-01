@@ -348,22 +348,17 @@ function setNav(lang) {
     //NAVBAR
     const menus = document.querySelectorAll('ol li a')
     const langIcon = document.querySelector('ol li img')
+    const langIcon1 = document.querySelector('img.lang')
 
     menus[0].innerText = data[lang].nav.item[0]
     menus[1].innerText = data[lang].nav.item[1]
     menus[2].innerText = data[lang].nav.item[2]
     menus[3].innerText = data[lang].nav.item[3]
     langIcon.setAttribute('src', `./img/${document.body.getAttribute('lang')}.png`)
+    langIcon1.setAttribute('src', `./img/${document.body.getAttribute('lang')}.png`)
 
     //FOOTER
-    const articleLinks = document.querySelector('div#articleLinks')
     const navigationLinks = document.querySelector('div#navigationLinks')
-
-    // articleLinks.querySelector('h4').innerText = data[lang].articles.title
-    // articleLinks.querySelector('ul').innerHTML = ''
-    // data[lang].articles.item.map(item => {
-    //     articleLinks.querySelector('ul').insertAdjacentHTML('beforeend', `<li><a href="${item.url}">${item.title}</a></li>`)
-    // })
 
     navigationLinks.querySelector('h4').innerText = data[lang].nav.title
     const navigationLi = navigationLinks.querySelectorAll('li')
@@ -524,11 +519,19 @@ function init() {
 
     localStorage.setItem('lang', 'id')
 
-    const btnLang = document.getElementById('lang')
-    btnLang.addEventListener('click', () => {
-        setLangId()
-        setContent(document.body.getAttribute('lang'))
+    const btnLang = document.querySelectorAll('#lang')
+    btnLang.forEach(btn => {
+        console.log(btn)
+        btn.addEventListener('click', () => {
+            setLangId()
+            setContent(document.body.getAttribute('lang'))
+        })
     })
+
+    // btnLang.addEventListener('click', () => {
+    //     setLangId()
+    //     setContent(document.body.getAttribute('lang'))
+    // })
 
     const li = document.querySelectorAll('ol li')
 
