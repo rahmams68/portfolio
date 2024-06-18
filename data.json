@@ -32,26 +32,29 @@
             "skills": {
                 "title": "Skill",
                 "item": [
-                    "Analisis & Problem Solving",
-                    "Komunikasi & Team Work",
-                    "Familiar dengan SDLC (Agile, Scrum, Waterfall)",
-                    "Pemrograman dengan HTML, CSS, JavaScript, NodeJS",
-                    "Desain sistem (DFD, UML, ERD)",
+                    "Fullstack web development",
+                    "HTML, CSS, JavaScript, NodeJS, React.js",
+                    "MySQL, PostgreSQL",
+                    "Integrasi API",
                     "Desain UI/UX",
-                    "Database Management System MySQL, PostgreSQL"
+                    "Desain sistem (DFD, UML, ERD)",
+                    "Analisis & problem solving",
+                    "Komunikasi & team work",
+                    "Familiar dengan SDLC (Agile, Scrum, Waterfall)"
                 ]
             },
             "softwares": {
                 "title": "Software",
-                "item": ["Visual Studio Code", "Git & Github", "Postman", "Trello", "Figma", "Microsoft Office (Word, Excel, PowerPoint)"]
+                "item": ["Visual Studio Code", "Git & Github", "Postman", "Trello", "Figma", "Microsoft Office (Word, Excel, PowerPoint)", "Draw.io", "Canva", "Medibang Paint Pro"]
             },
             "certificates": {
                 "title": "Sertifikat",
                 "item": [
-                    "freeCodeCamp - JavaScript Algorithms and Data Structures Certification",
-                    "Cisco Networking Academy - Networking Basics Course",
-                    "Cisco Networking Academy - Introduction to Cybersecurity Course",
-                    "BPPTIK - Junior Web Developer Certification"
+                    "Dicoding - Cloud Practitioner Essentials",
+                    "freeCodeCamp - JavaScript Algorithms and Data Structures",
+                    "Cisco Networking Academy - Networking Basics",
+                    "Cisco Networking Academy - Introduction to Cybersecurity",
+                    "BNSP - Junior Web Developer"
                 ]
             }
         },
@@ -183,26 +186,29 @@
             "skills": {
                 "title": "Skills",
                 "item": [
-                    "Analysis & Problem Solving",
-                    "Communication & Team Work",
-                    "Familiar with SDLC (Agile, Scrum, Waterfall)",
-                    "Programming with HTML, CSS, JavaScript, NodeJS",
-                    "System design (DFD, UML, ERD)",
+                    "Fullstack web development",
+                    "HTML, CSS, JavaScript, NodeJS, React.js",
+                    "MySQL, PostgreSQL",
+                    "API integration",
                     "UI/UX Design",
-                    "Database Management System MySQL, PostgreSQL"
+                    "System design (DFD, UML, ERD)",
+                    "Analysis & problem solving",
+                    "Communication & team work",
+                    "Familiar with SDLC (Agile, Scrum, Waterfall)"
                 ]
             },
             "softwares": {
                 "title": "Softwares",
-                "item": ["Visual Studio Code", "Git & Github", "Postman", "Trello", "Figma", "Microsoft Office (Word, Excel, PowerPoint)"]
+                "item": ["Visual Studio Code", "Git & Github", "Postman", "Trello", "Figma", "Microsoft Office (Word, Excel, PowerPoint)", "Draw.io", "Canva", "Medibang Paint Pro"]
             },
             "certificates": {
                 "title": "Certificates",
                 "item": [
-                    "freeCodeCamp - JavaScript Algorithms and Data Structures Certification",
-                    "Cisco Networking Academy - Networking Basics Course",
-                    "Cisco Networking Academy - Introduction to Cybersecurity Course",
-                    "BPPTIK - Junior Web Developer Certification"
+                    "Dicoding - Cloud Practitioner Essentials",
+                    "freeCodeCamp - JavaScript Algorithms and Data Structures",
+                    "Cisco Networking Academy - Networking Basics",
+                    "Cisco Networking Academy - Introduction to Cybersecurity",
+                    "BNSP - Junior Web Developer"
                 ]
             }
         },
@@ -217,7 +223,7 @@
                 },
     
                 {
-                    "title": "Aplikasi TemplateKita",
+                    "title": "TemplateKita App",
                     "desc": "Final project of Software Engineer Internship program at PT. Prasimax Inovasi Teknologi, a web-based platform for sharing ready-to-use document templates, which builded individually through all SDLC process with agile method using HTML, CSS, Next.js, Express.js, Quill.js, and PostgreSQL.",
                     "imgUrl": "./img/p2.png"
                 },
@@ -229,19 +235,19 @@
                 },
     
                 {
-                    "title": "Dokumen SRS Aplikasi OK GARDEN",
+                    "title": "SRS Document of OK GARDEN Application",
                     "desc": "Final project of Object Oriented Analysis and Design course, an SRS document for OK Garden application case study based on an IEEE template, which created in team. My role is to participate in analyzing and designing use case diagrams as well as creating activity diagrams, class diagrams, sequence diagrams, and use case descriptions for most of the features.",
                     "imgUrl": "./img/p4.png"
                 },
     
                 {
-                    "title": "SPK Pemindahan Lokasi Sekolah Pertanian",
+                    "title": "DSS for Moving Agricultural School Location",
                     "desc": "Final project of Decision Support Systems course, a web-based application to generate recommendations for agricultural school transfer locations, which builded in team through the SDLC process with waterfall method using HTML, CSS, PHP and MySQL. My role is to design use cases and ER diagrams, work on the backend including creating AHP algorithms, and carry out database integration.",
                     "imgUrl": "./img/p5.png"
                 },
     
                 {
-                    "title": "Pemodelan dan Desain Sistem HotelQu",
+                    "title": "HotelQu System Modelling and Design",
                     "desc": "Final project of Software Engineering course, a system modeling and design report for the HotelQu case study, which created in team through the analysis and design process of SDLC. My role is to carry out analysis and design of use case diagrams, control flow diagrams, and system data flow diagrams.",
                     "imgUrl": "./img/p6.png"
                 }
