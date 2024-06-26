@@ -70,7 +70,7 @@
     
                 {
                     "title": "Aplikasi TemplateKita",
-                    "desc": "Hasil proyek magang sebagai software engineer di PT. Prasimax Inovasi Teknologi berupa platform berbagi template dokumen siap pakai berbasis web yang dibangun secara individu melalui seluruh tahapan SDLC dengan metode agile menggunakan HTML, CSS, Next.js, Express.js, Quill.js, serta PostgreSQL.",
+                    "desc": "Hasil proyek magang sebagai software engineer di PT. Prasimax Inovasi Teknologi berupa platform berbagi template dokumen siap pakai berbasis web yang dibangun secara individu melalui seluruh tahapan SDLC dengan metode agile menggunakan HTML, CSS, Next.js, Express.js, Quill.js, serta PostgreSQL. Aplikasi dilengkapi dengan dashboard admin serta pilihan menu yang berbeda untuk tiga jenis role user selain guest (User, Contributor, Reviewer).",
                     "imgUrl": "./img/p2.png"
                 },
     
@@ -224,7 +224,7 @@
     
                 {
                     "title": "TemplateKita App",
-                    "desc": "Final project of Software Engineer Internship program at PT. Prasimax Inovasi Teknologi, a web-based platform for sharing ready-to-use document templates, which builded individually through all SDLC process with agile method using HTML, CSS, Next.js, Express.js, Quill.js, and PostgreSQL.",
+                    "desc": "Final project of Software Engineer Internship program at PT. Prasimax Inovasi Teknologi, a web-based platform for sharing ready-to-use document templates, which builded individually through all SDLC process with agile method using HTML, CSS, Next.js, Express.js, Quill.js, and PostgreSQL. This application included with an admin dashboard and different menu options for three types of user roles besides guest (User, Contributor, Reviewer).",
                     "imgUrl": "./img/p2.png"
                 },
     
